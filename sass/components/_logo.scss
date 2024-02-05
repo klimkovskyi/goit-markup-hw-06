@@ -1,0 +1,19 @@
+.link-logo {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    text-transform: uppercase;
+
+    color: $accent-color;
+
+    @media screen and (max-width: 767px) {
+        padding: 16px 0px;
+    }
+}
+
+.logo-text {
+    color: $secondary-text-color;
+}
