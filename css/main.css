@@ -24,6 +24,8 @@ a {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .visually-hidden {
@@ -341,4 +343,8 @@ body {
 
 .social-icon {
   fill: #f4f4fd;
+}
+
+.backdrop {
+  display: none;
 }/*# sourceMappingURL=main.css.map */
