@@ -1,5 +1,9 @@
 .preference {
     padding: 96px 0;
+
+    @media screen and (min-width: 1158px) {
+        padding: 120px 0;
+    }
 }
 
 .preference-list {
