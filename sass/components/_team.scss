@@ -1,0 +1,79 @@
+.team {
+    padding: 96px 0;
+
+    background-color: #f4f4fd;
+
+    @media screen and (min-width:1158px) {
+        padding: 120px 0;
+
+    }
+}
+
+.team-title {
+    margin-bottom: 72px;
+    text-align: center;
+
+    color: #2e2f42;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+    row-gap: 72px;
+
+    @media screen and (min-width:768px) {
+        row-gap: 64px;
+    }
+}
+
+.team-item {
+    max-width: 264px;
+
+    background-color: #ffffff;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+        0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+        0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
+
+    @media screen and (min-width:768px) {
+
+        width: calc((100% - 24px) / 2);
+    }
+}
+
+.team-img {}
+
+.team-wrapper {
+    padding: 32px 0;
+
+    .social-list {
+        gap: 24px;
+    }
+}
+
+.team-subtitle {
+    text-align: center;
+    margin-bottom: 8px;
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team-paragraph {
+    text-align: center;
+    margin-bottom: 8px;
+
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
