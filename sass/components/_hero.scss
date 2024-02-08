@@ -12,13 +12,13 @@
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../../images/background/Dark-bg-mob320.jpg);
+            url(../images/background/Dark-bg-mob320.jpg);
 
         @media screen and (min-resolution: 192dpi) {
             background-image: linear-gradient(to bottom,
                     rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                url(../../images/background/Dark-bg-mob-2.jpg);
+                url(../images/background/Dark-bg-mob-2.jpg);
         }
     }
 
@@ -29,13 +29,13 @@
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../../images/background/Dark-bg-tab.jpg);
+            url(../images/background/Dark-bg-tab.jpg);
 
         @media screen and (min-resolution: 192dpi) {
             background-image: linear-gradient(to bottom,
                     rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                url(../../images/background/Dark-bg-tab-2.jpg);
+                url(../images/background/Dark-bg-tab-2.jpg);
         }
     }
 
@@ -46,13 +46,13 @@
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../../images/background/Dark-bg-desctop.jpg);
+            url(../images/background/Dark-bg-desctop.jpg);
 
         @media screen and (min-resolution: 192dpi) {
             background-image: linear-gradient(to bottom,
                     rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                url(../../images/background/Dark-bg-desctop-2.jpg);
+                url(../images/background/Dark-bg-desctop-2.jpg);
         }
     }
 }
