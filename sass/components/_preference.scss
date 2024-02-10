@@ -17,7 +17,10 @@
 
 .preference-item {
     @media screen and (max-width:767px) {
-        margin-bottom: 72px;
+        &:not(:last-child) {
+            margin-bottom: 72px;
+        }
+
     }
 
     @media screen and (min-width:768px) {

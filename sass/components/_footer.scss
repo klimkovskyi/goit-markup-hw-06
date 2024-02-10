@@ -10,7 +10,6 @@
 }
 
 .footer-wraper {
-
     .link-logo {
         padding: 0;
         margin-bottom: 16px;
@@ -36,6 +35,10 @@
 }
 
 .footer-wrap {
+    @media screen and (max-width:767px) {
+        margin-bottom: 72px;
+    }
+
     @media screen and (min-width:768px) and (max-width:1157px) {
         display: flex;
         gap: 24px;
@@ -49,10 +52,13 @@
 }
 
 .footer-box {
-    max-width: 264px;
-
     @media screen and (max-width:767px) {
         margin-bottom: 72px;
+    }
+
+    @media screen and (min-width:768px) {
+        max-width: 264px;
+
     }
 }
 
@@ -65,11 +71,6 @@
 }
 
 .social {
-
-    @media screen and (max-width:767px) {
-        margin-bottom: 72px;
-    }
-
     .social-list {
         gap: 16px;
     }
@@ -111,7 +112,12 @@
     }
 }
 
-.footer-form-label {}
+.footer-form-label {
+    @media screen and (max-width:767px) {
+        display: block;
+        margin-bottom: 16px;
+    }
+}
 
 .footer-form-input {
     width: 264px;
@@ -139,7 +145,7 @@
     }
 
     @media screen and (max-width:767px) {
-        margin-bottom: 16px;
+        width: 100%;
     }
 }
 
